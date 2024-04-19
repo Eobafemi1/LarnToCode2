@@ -20,6 +20,41 @@ nav a{
     padding: 0.5rem;
     font-size: 5vw;
 }
-.card{
+.list{
     display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: ; */
+}
+.card
+{
+    width: 256px;
+    max-width: 40%;
+    display: inline-block;
+    margin: 1rem;
+    border: 1px solid red;
+}
+.card img{
+    width: 256px;
+    height: 256px;
+    object-fit: contain;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid gold;
+    border-collapse: collapse;
+    padding: 0.5rem 1rem;
+    text-align: left;
+    text-transform: capitalize;
+}
+.home p{
+    color:white;
 }
